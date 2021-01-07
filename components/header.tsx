@@ -1,9 +1,9 @@
 import React from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import InputBase from "@material-ui/core/InputBase";
+// import IconButton from "@material-ui/core/IconButton";
+// import Typography from "@material-ui/core/Typography";
+// import InputBase from "@material-ui/core/InputBase";
 import {
   createStyles,
   fade,
@@ -80,7 +80,7 @@ export default function SearchAppBar() {
         <Toolbar style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
           <Image width="250" height="60" src="/logo/logo-home@3x.png" />
 
-          <div className={classes.search}>
+          {/* <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
@@ -92,7 +92,7 @@ export default function SearchAppBar() {
               }}
               inputProps={{ "aria-label": "search" }}
             />
-          </div>
+          </div> */}
         </Toolbar>
       </AppBar>
     </div>
